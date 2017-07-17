@@ -13,7 +13,7 @@ Just have a look!
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button://R.mipmap.success->图片
-                ToastEmail.getToastEmail().ToastShow(mContext, R.mipmap.success, "我是Toast要显示的文字");
+                ToastView.getToastEmail().ToastShow(mContext, R.mipmap.success, "我是Toast要显示的文字");
                 break;
             default:
                 break;

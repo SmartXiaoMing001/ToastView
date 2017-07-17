@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/toast_emailOne_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_setting_backgroud_shape03"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="4dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="4dp" >
+        <ImageView
+            android:id="@+id/img_source"
+            android:paddingTop="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/success"
+            android:paddingBottom="5dp"/>
+        <TextView
+            android:paddingBottom="10dp"
+            android:id="@+id/textToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="邮件已经，发送请注意查收！"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

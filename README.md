@@ -9,7 +9,7 @@ Just have a look!
 ![image](https://github.com/SmartXiaoMing001/ToastView/raw/master/pictures/success.jpg)
 
 ###MainActivity代码
-```
+```Java
 @Override
     public void onClick(View v) {
         switch (v.getId()) {
